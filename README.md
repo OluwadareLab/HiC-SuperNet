@@ -16,7 +16,7 @@ Access the GSE62525 GEO entry for Hi-C data from (Rao et al., 2014) [here](https
  - Create a folder named raw within the root directory to hold your unprocessed datasets. Use this command: `mkdir $root_dir/raw`.
  - Download and extract your datasets into the `$root_dir/raw` directory. For GM12878 data, an appropriately named folder will be created containing the contact matrices for every chromosome and available resolution. Refer to the README for additional guidance.
 
-To generate .npz formatted datasets for DiCARN, follow the outlined steps:
+Follow the following steps to generate datasets in .npz format:
 
 ### 1. Processing Raw Data
 This step will generate a new directory $root_dir/mat/<cell_line_name> containing all chrN_[HR].npz files.
@@ -79,3 +79,5 @@ Arguments:
 
 Note: To proceed with training, ensure that both training and validation files are present in $root_dir/data. Adjust the -s option to produce validation and additional required datasets.
 ### Congratulations! Your datasets are now ready.
+# Note: 
+For training, you must have both training and validation files present in $root_dir/data. Change the option -s to generate the validation and other datasets needed
