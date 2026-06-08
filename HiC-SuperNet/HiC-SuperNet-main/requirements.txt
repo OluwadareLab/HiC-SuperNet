@@ -1,0 +1,6 @@
+tensorflow>=2.12.0
+numpy>=1.23.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+scipy>=1.10.0        # optional, for advanced analysis
+scikit-image>=0.21.0 # optional, for alternative SSIM implementations
