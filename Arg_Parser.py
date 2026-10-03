@@ -2,7 +2,6 @@ import os
 import argparse
 
 # the Root directory for all raw and processed data
-# root_dir = 'Data/DNase/target/CH12-LX'  # Example of root directory name
 root_dir = './Data'  # all raw and processed data live here
 
 res_map = {'5kb': 5_000, '10kb': 10_000, '25kb': 25_000, '50kb': 50_000, '100kb': 100_000, '250kb': 250_000,
