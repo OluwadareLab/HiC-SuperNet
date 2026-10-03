@@ -2,13 +2,6 @@
 HiC-SuperNet (PyTorch)
 ======================
 Multi-scale attention-based CNN for Hi-C contact map enhancement.
-
-PyTorch port of the original TensorFlow/Keras model
-(github.com/OluwadareLab/HiC-SuperNet, Models/HiC-SuperNet.py), so that it
-plugs into the DiCARN data pipeline (Read_Data -> Downsample -> Generate ->
-Train -> Predict). Layer structure, filter counts and activations follow the
-original exactly. Input/output layout is PyTorch's (N, 1, H, W), which is the
-layout of the DiCARN/HiCARN .npz files.
 """
 
 import torch
