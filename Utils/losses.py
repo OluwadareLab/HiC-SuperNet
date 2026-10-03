@@ -2,11 +2,6 @@
 HiC-SuperNet loss (PyTorch port of losses.improved_loss in the original repo):
 
     loss = 0.4 * MSE + 0.2 * MAE + 0.3 * (1 - Pearson) + 0.1 * (1 - SSIM)
-
-SSIM here follows tf.image.ssim (11x11 Gaussian window, sigma = 1.5,
-'valid' filtering, K1 = 0.01, K2 = 0.03, max_val = 1) so the loss matches the
-TensorFlow version. Evaluation metrics elsewhere use Utils/SSIM.py, the same
-SSIM that DiCARN reports, so scores stay comparable with DiCARN.
 """
 
 import torch
