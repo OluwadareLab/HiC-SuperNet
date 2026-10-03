@@ -1,5 +1,5 @@
 """
-Train HiC-SuperNet on DiCARN/HiCARN-format data.
+Train HiC-SuperNet.
 
 Expects, inside <root_dir>/data (root_dir is set in Arg_Parser.py):
     hicarn_10kb40kb_c40_s40_b201_nonpool_train.npz
